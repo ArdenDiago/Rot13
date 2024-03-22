@@ -1,16 +1,25 @@
-# Rot13
-This is a simple letter substitution cipher that replaces a letter with the 13th letter after it in the alphabet.
+# ROT13 Program Readme
 
-Input	    A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+### Introduction
 
-Output	  N O P Q R S T U V W X Y Z A B C D E F G H I J K L M
-_________________________________________________________________________________________________________________
 
-Input   a b c d e f g h i j k l m n o p q r s t u v w x y z
+This is a simple ROT13 (Rotate by 13 places) program. ROT13 is a simple letter substitution cipher that replaces a letter with the 13th letter after it in the alphabet. ROT13 is a special case of the Caesar cipher developed in ancient Rome.
 
-Output  n o p q r s t u v w x y z a b c d e f g h i j k l m
+### Features
 
-so if u type: HI
-the output will be: Uv
++ Text Encryption: Encrypt any text using the ROT13 cipher.
++ Text Decryption: Decrypt any text encrypted using the ROT13 cipher.
++ Case Preservation: The program preserves the case of the letters, meaning uppercase letters will remain uppercase, and lowercase letters will remain lowercase after encryption or decryption.
++ Support for Alphabetic Characters Only: Non-alphabetic characters (such as numbers, punctuation, etc.) remain unchanged during encryption or decryption.
 
-in Rot 13 only the alphabets change there is no charge for the numbers and all the signs 
+
+##### Input
+```
+Would you like to encrypt or decrypt a message?
+Enter 'e' for encryption or 'd' for decryption: e
+Enter the text you want to encrypt: Hello, World!
+```
+##### Output
+```
+Uryyb, Jbeyq!
+```
